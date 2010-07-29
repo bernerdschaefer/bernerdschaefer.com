@@ -1,0 +1,28 @@
+---
+layout: nil
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>oinopa ponton</title>
+    <link>http://oinopa.com</link>
+    <language>en</language>
+    <webMaster>bj.schaefer@gail.com (Bernerd Schaefer)</webMaster>
+    <pubDate>{{ site.time | date_to_xmlschema }}</pubDate>
+    <copyright>Copyright 2010</copyright>
+    <ttl>60</ttl>
+    {% for post in site.posts limit:10 %}
+    <item>
+      <title>{{ post.title }}</title>
+      <link>http://oinopa.com{{ post.url }}</link>
+      <pubDate>{{ post.date }}</pubDate>
+      <guid>http://oinopa.com/archives{{ post.id }}/</guid>
+      <description>{{ post.content | xml_escape }}</description>
+      {% for topic in post.topics %}
+      <category domain="http://oinopa.com/tags/{{ topic }}">{{ topic }}</category>
+      {% endfor %}
+    </item>
+    {% endfor %}
+  </channel>
+</rss>

@@ -1,5 +1,6 @@
 .swp
 public/*
+_site
 !public/favicon.ico
 !public/robots.txt
 !public/stylesheets/
