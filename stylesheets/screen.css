@@ -10,7 +10,7 @@ header h1 a:visited { color: #eee; }
 header p { color: #777; }
 footer { display: block; color: #99a; line-height: 4em; font-size: 10px; width: 100%; position: relative; left: -80px; text-indent: -80px; padding-left: 80px; text-align: center; font-family: "Lucida Grande", Helvetica, sans-serif; font-weight: bold; margin-top: 20px }
 pre, tt, code, kbd { font-family: Monaco, Consolas, 'Lucida Console', monospace; }
-pre, tt, p > code, kbd { font-size: 0.7em; }
+pre, tt, :not(pre) > code, kbd { font-size: 0.7em; }
 
 footer p { margin: 0 }
 article { background-color: #fff; display: block; line-height: 1.8em }
