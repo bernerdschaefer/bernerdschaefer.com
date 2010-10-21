@@ -2,6 +2,54 @@
 layout: default
 ---
 
-<h2>JRubyConf</h2>
+<h2>Bringing Java to the Ruby World - JRubyConf 2010</h2>
 
-<p>Welcome! Slides and code will be available here soon!</p>
+<p>
+  Welcome! Below you can find the slides from my presentation as JRubyConf
+  2010. Most of the presentation was spent looking through some sample and
+  production applications which make use of jruby-jars. Links to each are also
+  below. Look for the video soon, as well as some blog posts examining each
+  of the projects.
+</p>
+
+<h3><a href="/jrubyconf/slides">Slides</a></h3>
+<p>
+  Once you hit the "To the Terminal!" slide, you can check out the code
+  samples below. They're also linked directly in the slideshow.
+</p>
+
+<h3>Code</h3>
+<p>
+  I demonstrated three techniques for working with jruby-jars, each with a
+  different project or code sample. Here's the code:
+</p>
+
+<h4>Standalone</h4>
+<p>
+  Here we look at the first step to understanding how jruby-jars is used, by
+  writing a simple wrapper script to provide us a "jruby" executable.
+</p>
+<p>Look at the code for <a href="http://gist.github.com/638382">bin/jruby</a>.</p>
+
+<h4>REST</h4>
+<p>
+  Taking these concepts to the next level, we have "Rucene", a sample
+  application which uses Sinatra in JRuby to provide a simple REST API
+  for Lucene, and Sinatra in Ruby to provide the user-facing interface.
+</p>
+
+<p>Look at the code for <a href="http://github.com/bernerdschaefer/rucene">rucene</a>.</p>
+
+<h4>DRb</h4>
+<p>
+  When you need to use JRuby, but need much tighter integration between it and
+  your main Ruby application than a REST API or separate process, you can use
+  DRb. We looked at how Akephalos uses DRb to communicate between Capybara (an
+  integration testing framework) and HTMLUnit (a headless browser build with
+  Java).
+</p>
+<p>Look at the code for <a href="http://github.com/bernerdschaefer/akephalos">akephalos</a>.</p>
+
+
+
+
