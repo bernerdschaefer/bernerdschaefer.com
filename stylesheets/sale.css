@@ -1,0 +1,40 @@
+body { color: #111; font-family: "Helvetica Neue", helvetica, arial, sans-serif; font-size: 16px; line-height: 1.5em; margin: 0 auto; padding: 40px 0 0; width: 830px; }
+a { color: #44b }
+a:visited { color: #446 }
+
+header { background-color: #fff; margin: 0 auto; display: block; margin-bottom: 20px }
+header h1 { background-color: #0E0826; margin: 0; font-weight: normal; line-height: 2em; text-align: center; text-transform: uppercase; font-size: 1.4em; }
+header h1 a { color: #fff; display: block; text-decoration: none }
+header h1 a:visited { color: #fff; }
+/* header p { text-align: center; } */
+
+footer { display: block; height: 40px; clear: both; }
+
+h2 { border-bottom: 2px solid #ddd; font-size: 1em; text-transform: uppercase; }
+h3 { font-size: 0.8em; margin-bottom: 0; }
+
+#furniture, #electronics, #appliances { width: 260px; float: left }
+#furniture p, #electronics p, #appliances p { font-size: 0.8em; width: 200px; line-height: 1.2em; margin: -0.4em 0 0; }
+#furniture, #electronics { margin-right: 25px; }
+.price { background-color: #4b4; text-transform: uppercase; color: #fff; float: right; margin: 0.2em 0 0 0.4em; font: 0.8em "Lucida Grande", Helvetica, sans-serif; width: 4em; font-weight: bold; padding: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; text-align: center; }
+.ask { background-color: #bbb; }
+
+.clear { clear: both; width: 100%; }
+
+#interested, #phone, #email { margin-top: 1em; width: 260px; float: left; }
+#interested, #phone { margin-right: 25px; }
+#phone, #email { font-weight: bold; }
+
+#interested p { font-size: 0.8em; color: #777; }
+.location { font-size: 0.6em; margin-left: 0.5em; text-transform: uppercase; color: #777; }
+
+.image { float: left; position: relative; margin: 0 1em 1em 0; }
+.chicago { margin-top: 1em; }
+.image img { display: block; -webkit-border-radius: 12px; -moz-border-radius: 12px; }
+.image span {
+  display: block; width: 140px; position: absolute; bottom: 12px; text-align: center;
+  color: #fff; background-color: #0E0826; font-size: 0.7em; margin-left: 80px;
+  padding: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; text-transform: uppercase;
+}
+.berlin { float: right; margin-right: 0; margin-left: 1em; }
+.berlin span { width: 180px; margin-left: 60px; }

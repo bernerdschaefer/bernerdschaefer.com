@@ -1,0 +1,89 @@
+---
+layout: sale
+title: "Everything I own"
+---
+
+<div id="furniture">
+  <h2>Furniture &amp; Household</h2>
+
+  <h3><span class="price"> $800 </span> Vintage 1960's 8-foot sofa</h3>
+  <h3><span class="price"> $800 </span> 2x CB2 Arm Chairs</h3>
+  <h3><span class="price"> $400 </span> Panasonic 42" Plasma TV</h3>
+  <h3><span class="price"> $200 </span> CB2 Cast-Iron Coffee Table</h3>
+  <h3><span class="price"> $200 </span> CB2 Credenza</h3>
+  <h3><span class="price"> $160 </span> 3x IKEA Square Bookshelves</h3>
+  <h3><span class="price"> $120 </span> 2x IKEA Tall Bookshelves</h3>
+  <h3><span class="price"> $300 </span> West Elm Queen-Size Bed w/ Headboard</h3>
+  <h3><span class="price"> $140 </span> Serta Mattress</h3>
+  <h3><span class="price"> $80 </span> West Elm Lamp</h3>
+  <h3><span class="price"> $100 </span> CB2 Lamp</h3>
+  <h3><span class="price"> $40 </span> 9x12 Area Rug</h3>
+  <h3><span class="price"> $80 </span> Vintage Chest</h3>
+</div>
+
+<div id="electronics">
+  <h2>Electronics &amp; Guitars</h2>
+
+  <h3><span class="price"> $120 </span> 2x Klipsch Chorus ii Speakers</h3>
+  <h3><span class="price"> $100 </span> Sansui Reciever</h3>
+  <h3><span class="price"> $90  </span> Record Player</h3>
+  <h3><span class="price"> $30  </span> Laser Printer</h3>
+  <h3><span class="price"> $80  </span> Logitech Speaker Set</h3>
+  <h3><span class="price"> $600 </span> Fender Amplifier</h3>
+  <h3><span class="price"> $200 </span> Classical Guitar</h3>
+  <h3><span class="price"> $120 </span> Acoustic Guitar</h3>
+  <h3><span class="price"> $700 </span> Cherry-Red Gibson 335</h3>
+  <h3><span class="price"> $80  </span> Fuzz Pedal</h3>
+</div>
+
+<div id="appliances">
+  <h2>Kitchen, Appliances &amp; Misc.</h2>
+
+  <h3><span class="price"> $40 </span> Cuisinart Food Processor</h3>
+  <h3><span class="price"> $25 </span> Blender</h3>
+  <h3><span class="price"> $60 </span> Vaccuum Cleaner</h3>
+  <h3><span class="price"> $80 </span> Le Crueset Dutch Oven</h3>
+  <h3><span class="price"> $20 </span> Butcher Block Cutting Board</h3>
+
+  <h3><span class="price ask">ask!</span> Books</h3>
+  <p>
+    We have lots and lots of books. Big books, small books, classics, language
+    books, etc. Swing by and see.
+  </p>
+  <h3><span class="price ask">ask!</span> DVDs</h3>
+  <p>
+    Music &amp; Concert, some blockbusters, TV series.
+  </p>
+  <h3><span class="price ask">ask!</span> LPs</h3>
+  <p>
+    Really all over the place. Come check them out.
+  </p>
+
+  <h3>And probably lots more...</h3>
+  <p>
+    If you're looking for something, just ask. We may well have it!
+  </p>
+</div>
+
+<div class="clear">
+</div>
+
+<div id="interested">
+  <h2>Interested? Get in touch!</h2>
+  <p>
+    I've tried to price things as fairly as possible, but if you really want
+    something but need a different price, we'll work something out. Oh, and the
+    more you buy... the more you'll save! Just sayin'!
+  </p>
+</div>
+
+<div id="phone">
+  <h2>Phone</h2>
+  <p> 773-687-8712 <span class="location">home</span></p>
+  <p> 817-909-2085 <span class="location">mobile</span></p>
+</div>
+
+<div id="email">
+  <h2>Email</h2>
+  <p><a href="mailto:bj.schaefer@gmail.com">bj.schaefer@gmail.com</a></p>
+</div>
