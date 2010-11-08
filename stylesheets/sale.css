@@ -17,7 +17,8 @@ h3 { font-size: 0.8em; margin-bottom: 0; }
 #furniture p, #electronics p, #appliances p { font-size: 0.8em; width: 200px; line-height: 1.2em; margin: -0.4em 0 0; }
 #furniture, #electronics { margin-right: 25px; }
 .price { background-color: #4b4; text-transform: uppercase; color: #fff; float: right; margin: 0.2em 0 0 0.4em; font: 0.8em "Lucida Grande", Helvetica, sans-serif; width: 4em; font-weight: bold; padding: 4px; -webkit-border-radius: 4px; -moz-border-radius: 4px; text-align: center; }
-.ask { background-color: #bbb; }
+.sold { color: #aaa; }
+.sold .price, .ask { background-color: #bbb; text-decoration: none; }
 
 .clear { clear: both; width: 100%; }
 
