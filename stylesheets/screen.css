@@ -27,6 +27,7 @@ time { background-color: #b44; color: #fff; display: block; font: 8px "Lucida Gr
 time .date { font-size: 16px; display: block }
 time .month { text-transform: uppercase; font-weight: bold }
 .highlight, blockquote { display: block; background-color: rgb(245, 245, 255); border: 1px solid #dde; border-right: 0; border-left: 0; padding: 20px 0 20px 80px; margin-right: 0; min-width: 500px; position: relative; right: 0; width: 100%; left: -80px; line-height: 1.2em }
+.highlight strong { font-weight: normal; color: #219161; }
 
 /*---------------------- Syntax Highlighting -----------------------------*/
 td.linenos { background-color: #f0f0f0; padding-right: 10px; }
