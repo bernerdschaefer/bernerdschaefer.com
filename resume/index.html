@@ -20,7 +20,35 @@
 
     <h2>Experience</h2>
 
-    <h3>Hashrocket <span class="date">apr 2010-present</span></h3>
+    <h3>HR New Media GmbH <span class="date">dec 2010-present</span></h3>
+    <ul>
+      <li>
+
+        Built a PDF to HTML conversion tool, based on the PDF specification,
+        with the goal of pixel-perfect conversions, including fonts and
+        graphics. The front-end uses standard rails, and communicates with the
+        backend over RabbitMQ.
+
+      </li>
+
+      <li>
+
+        Restructured a monolithic rails application into a set of standlone
+        services, communicating with simple REST APIs.
+
+      </li>
+
+      <li>
+
+        Built a product recommendation engine on top of MongoDB. It runs on
+        JRuby, and uses a mix of ad-hoc queries and client-side filtering to
+        generate on-the-fly recommendations in response to REST calls to a
+        Sinatra application.
+
+      </li>
+    </ul>
+
+    <h3>Hashrocket <span class="date">apr 2010-dec 2010</span></h3>
     <ul>
       <li>
 
@@ -72,30 +100,9 @@
       </li>
     </ul>
 
-    <h3>Accelerated Sales Inc. <span class="date">2005-2007</span></h3>
-    <ul>
-      <li>
-
-        Built a Rails application to track the performance of the two-person
-        company's one-hundred contractors throughout the US, including
-        automated scoring and targeted feedback from the contractors' reports.
-
-      </li>
-    </ul>
-
-    <h3>Coram Deo Academy <span class="date">2003-2005</span></h3>
-    <ul>
-      <li>
-        Worked with school administrators to replace their proprietary and
-        out-dated registrar system with a web application. It handled
-        enrollment applications, course scheduling, grade reporting, transcript
-        generation, and more. The first few months of work were done in PHP, but
-        was rewritten in Rails over a weekend in the later part of 2004.
-      </li>
-    </ul>
-
     <h2>Speaking Engagements</h2>
     <ul>
+      <li>MongoSF 2012 &mdash; co-hosted a ruby hackathon</li>
       <li>JRubyConf 2010 &mdash; "Bringing Java to the Ruby World" (<a href="/jrubyconf">slides and code</a>)</li>
       <li>ChicagoRuby &mdash; "Taking Mongoid into the Future" (<a href="http://vimeo.com/14787998">video</a>)</li>
       <li>Lone Star Ruby Conference 2010 &mdash; "Taking Mongoid into the Future" (<a href="http://confreaks.net/videos/293-lsrc2010-taking-mongoid-into-the-future">video</a>)</li>
@@ -105,14 +112,34 @@
     <h2>Education  <span class="date">2005-2008</span></h2>
     <p>B.A. Classical Philology (Latin, Greek, French) &mdash; University of Dallas, Texas</p>
 
-    <h2>Open Source Contributions</h2>
+    <h2>Open Source</h2>
+
+    <h3>Current Project</h3>
+    <p>
+      <a href="https://github.com/mongoid/moped">Moped</a> &mdash; an
+      alternative MongoDB driver written entirely in Ruby. It offers comparable
+      speed to the c-extension powered mongo-ruby-driver on MRI, and a
+      significant boost in speed on JRuby. Moped is now the driver used for
+      Mongoid.
+    </p>
+
+    <h3>Other Projects / Contributions</h3>
     <ul>
-      <li>akephalos <span class="role">creator and maintainer</span></li>
-      <li>uninhibited <span class="role">creator and maintainer</span></li>
-      <li>mongoid <span class="role">contributor</span></li>
-      <li>rails <span class="role">contributor</span></li>
-      <li>vim-haml <span class="role">contributor</span></li>
-      <li>vim-slurper <span class="role">contributor</span></li>
+      <li>
+        <a href="https://github.com/bernerdschaefer/akephalos">Akephalos</a> &mdash;
+        a headless JRuby browser for integration testing with Capybara (no
+        longer maintained).
+      </li>
+      <li>
+        <a href="https://github.com/bernerdschaefer/postscript">Postscript</a> &mdash;
+        a simple postscript interpreter in ruby.
+      </li>
+      <li>datamapper</li>
+      <li>mongoid</li>
+      <li>padrino</li>
+      <li>rails</li>
+    </ul>
+
     </ul>
 
     <h2>Web Properties</h2>
