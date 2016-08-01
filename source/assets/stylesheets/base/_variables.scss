@@ -1,13 +1,17 @@
 // Typography
-$base-font-family: $helvetica;
+$base-font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, FreeSerif, serif;
+$code-font-family: Monaco, Consolas, 'Lucida Console', monospace;
 $heading-font-family: $base-font-family;
 
 // Font Sizes
 $base-font-size: 1em;
+$larger-font-size: $base-font-size * 1.4;
+$largest-font-size: $base-font-size * 2.2;
+$smaller-font-size: $base-font-size * 0.7;
 
 // Line height
-$base-line-height: 1.5;
-$heading-line-height: 1.2;
+$base-line-height: 1.8;
+$heading-line-height: 2;
 
 // Other Sizes
 $base-border-radius: 3px;
@@ -16,10 +20,11 @@ $small-spacing: $base-spacing / 2;
 $base-z-index: 0;
 
 // Colors
-$blue: #1565c0;
+$blue: #4444bb;
+$dark-blue: #0e0826;
 $dark-gray: #333;
-$medium-gray: #999;
-$light-gray: #ddd;
+$medium-gray: #777;
+$light-gray: #eee;
 
 // Font Colors
 $base-font-color: $dark-gray;

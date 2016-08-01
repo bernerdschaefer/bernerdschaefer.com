@@ -14,11 +14,19 @@ h6 {
   font-family: $heading-font-family;
   font-size: $base-font-size;
   line-height: $heading-line-height;
-  margin: 0 0 $small-spacing;
+  margin: $small-spacing 0;
+}
+
+h1 {
+  font-size: $larger-font-size;
+}
+
+h2 {
+  font-size: $larger-font-size;
 }
 
 p {
-  margin: 0 0 $small-spacing;
+  margin: $small-spacing 0;
 }
 
 a {
@@ -45,4 +53,11 @@ img,
 picture {
   margin: 0;
   max-width: 100%;
+}
+
+pre,
+tt,
+code,
+kbd {
+  font-family: $code-font-family;
 }

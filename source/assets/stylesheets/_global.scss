@@ -1,19 +1,77 @@
-body {
-  background-color: $light-gray;
-  color: $medium-gray;
+body { padding: 40px 0 0 80px; }
+
+abbr {
+  border-bottom: 1px dotted #999;
+  font-size: $smaller-font-size;
 }
 
-.delete-me {
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  height: 100vh;
+header {
+  color: $medium-gray;
+  width: 500px;
 
-  .container {
+  h1 {
+    background-color: $dark-blue;
+    font-size: $largest-font-size;
+    font-style: italic;
+    font-weight: normal;
     text-align: center;
+  }
 
-    h1 {
-      font-weight: 200;
+  h1 a {
+    color: $light-gray;
+
+    &:hover {
+      color: $light-gray;
     }
   }
 }
+
+time {
+  font-family: $helvetica;
+}
+
+footer {
+  font-family: $helvetica;
+  color: $medium-gray;
+  font-size: $smaller-font-size;
+}
+
+pre,
+tt,
+:not(pre) > code,
+kbd {
+  font-size: $smaller-font-size;
+}
+
+article p { display: block; width: 500px; }
+
+article blockquote { margin: 0; font-style: italic; color: #444; line-height: 1.8em; }
+article blockquote cite { width: 500px; display: block; text-align: right; }
+article#list section { margin-bottom: 3em; }
+section.footnotes { font-size: 0.8em }
+
+time {
+  -webkit-border-radius: 4px;
+  background-color: #b44;
+  color: #fff;
+  display: block;
+  font: 8px "Lucida Grande", Helvetica, sans-serif;
+  left: 25px;
+  padding: 4px;
+  position: absolute;
+  text-align: center;
+  width: 30px;
+
+  .date {
+    display: block;
+    font-size: 16px;
+  }
+
+  .month {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+.highlight, blockquote { display: block; background-color: rgb(245, 245, 255); border: 1px solid #dde; border-right: 0; border-left: 0; padding: 20px 0 20px 80px; margin-right: 0; min-width: 500px; position: relative; right: 0; width: 100%; left: -80px; line-height: 1.2em }
+.highlight strong { font-weight: normal; color: #219161; }
