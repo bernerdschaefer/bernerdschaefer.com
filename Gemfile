@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "bourbon"
+gem "kramdown"
 gem "middleman"
 gem "middleman-autoprefixer"
 gem "middleman-blog"
