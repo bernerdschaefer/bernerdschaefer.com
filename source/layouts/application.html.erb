@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1", http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%= current_page.data.title || "The Middleman" %></title>
+    <%= stylesheet_link_tag "application" %>
+  </head>
+  <body class="<%= page_classes %>">
+    <header>
+      <h1>
+        <a href="/">oinopa ponton</a>
+      </h1>
+      <p>
+        I'm Bernerd Schaefer and this is my blog.
+      </p>
+    </header>
+    <article>
+      <%= yield %>
+    </article>
+    <footer>
+      <p>
+        &copy; 2016 &middot; Bernerd Schaefer
+      </p>
+    </footer>
+
+    <%= javascript_include_tag "https://code.jquery.com/jquery-2.1.1.min.js" %>
+    <%= javascript_include_tag "application" %>
+  </body>
+</html>
+

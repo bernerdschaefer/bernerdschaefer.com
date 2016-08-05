@@ -1,12 +1,14 @@
-activate :directory_indexes
 activate :autoprefixer
+activate :syntax
 
-set :relative_links, true
 set :css_dir, "assets/stylesheets"
-set :js_dir, "assets/javascripts"
-set :images_dir, "assets/images"
 set :fonts_dir, "assets/fonts"
+set :images_dir, "assets/images"
+set :js_dir, "assets/javascripts"
 set :layout, "layouts/application"
+set :markdown, input: "GFM", hard_wrap: false, footnote_nr: 1
+set :markdown_engine, :kramdown
+set :relative_links, true
 
 page '/*.xml', layout: false
 page '/*.json', layout: false
@@ -21,6 +23,9 @@ configure :build do
 end
 
 activate :blog do |blog|
+  blog.layout = "article"
+  blog.permalink = "{year}/{month}/{day}/{title}.html"
+  blog.sources = "blog/{year}-{month}-{day}-{title}.html"
 end
 
 activate :deploy do |deploy|

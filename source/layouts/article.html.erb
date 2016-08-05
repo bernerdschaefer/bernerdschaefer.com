@@ -1,0 +1,12 @@
+<% wrap_layout :application do %>
+  <time datetime="<%= current_page.date %>">
+    <span class="date"><%= current_page.date %></span>
+    <span class="month"><%= current_page.date %></span>
+  </time>
+  <h1>
+    <a href="<%= current_page.url %>">
+      <%= current_page.title %>
+    </a>
+  </h1>
+  <%= yield %>
+<% end %>
