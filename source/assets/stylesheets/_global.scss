@@ -1,4 +1,10 @@
-body { padding: 40px 0 0 80px; }
+body {
+  padding: $base-spacing;
+
+  @include media($medium-breakpoint) {
+    padding: $largest-spacing/2 0 0 $largest-spacing;
+  }
+}
 
 abbr {
   border-bottom: 1px dotted #999;
@@ -7,10 +13,11 @@ abbr {
 
 .header {
   color: $medium-gray;
-  width: 500px;
+  max-width: $max-content-width;
 
   h1 {
     background-color: $dark-blue;
+    margin-top: 0;
     font-size: $largest-font-size;
     font-style: italic;
     font-weight: normal;
@@ -32,36 +39,45 @@ footer {
   font-size: $smaller-font-size;
 }
 
-pre,
 tt,
-:not(pre) > code,
+code,
 kbd {
   font-size: $smaller-font-size;
 }
 
-article p {
-  display: block;
-  width: 500px;
+article {
+  p {
+    display: block;
+    max-width: $max-content-width;
+  }
+
+  blockquote {
+    font-style: italic;
+  }
 }
 
 .highlight,
 blockquote
 {
   background-color: rgb(245, 245, 255);
-  border-left: 0;
-  border-right: 0;
-  border: 1px solid #dde;
+  border-color: #dde;
+  border-style: solid;
+  border-width: 1px 0;
   display: block;
-  left: -80px;
+  margin-left: -$base-spacing;
   margin-right: 0;
-  min-width: 500px;
-  padding: 20px 0 20px 80px;
-  position: relative;
-  right: 0;
-  width: 100%;
+  padding: $base-spacing;
+  width: 100vw;
+
+  @include media($medium-breakpoint) {
+    margin-left: -$largest-spacing;
+    padding: 20px 0 20px $largest-spacing;
+  }
 }
 
 .highlight {
+  line-height: 1.2;
+
   strong {
     color: #219161;
     font-weight: normal;

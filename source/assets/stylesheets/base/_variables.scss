@@ -17,7 +17,11 @@ $heading-line-height: 2;
 $base-border-radius: 3px;
 $base-spacing: $base-line-height * 1em;
 $small-spacing: $base-spacing / 2;
+$largest-spacing: $base-spacing * 3;
 $base-z-index: 0;
+
+// Content
+$max-content-width: 34em;
 
 // Colors
 $blue: #4444bb;
