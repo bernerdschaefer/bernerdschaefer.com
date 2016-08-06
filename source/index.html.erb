@@ -1,17 +1,6 @@
 <% blog.articles.each do |article| %>
   <section>
-    <header class="article-header">
-      <h1>
-        <a href="<%= article.url %>">
-          <%= article.title %>
-        </a>
-      </h1>
-      <time datetime="<%= article.date %>">
-        <span class="date"><%= article.date.strftime("%-d %b") %></span>
-        <span class="year"><%= article.date.year %></span>
-      </time>
-    </header>
-
+    <%= partial :article_header, locals: { article: article } %>
     <p><%= article.data[:teaser] %></p>
   </section>
 <% end %>

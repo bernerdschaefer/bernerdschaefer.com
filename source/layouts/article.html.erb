@@ -1,14 +1,4 @@
 <% wrap_layout :application do %>
-  <header class="article-header">
-    <h1>
-      <a href="<%= current_page.url %>">
-        <%= current_page.title %>
-      </a>
-    </h1>
-    <time datetime="<%= current_page.date %>">
-      <span class="date"><%= current_page.date.strftime("%-d %b") %></span>
-      <span class="year"><%= current_page.date.year %></span>
-    </time>
-  </header>
+  <%= partial :article_header, locals: { article: current_page } %>
   <%= yield %>
 <% end %>
