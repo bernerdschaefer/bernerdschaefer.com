@@ -10,15 +10,20 @@
   <body class="<%= page_classes %>">
     <header class="header">
       <h1>
-        <a href="/">oinopa ponton</a>
+        <a href="/">Bernerd Schaefer</a>
       </h1>
       <p>
-        I'm Bernerd Schaefer and this is my blog.
+        I put thoughts worth sharing here. For thoughts I probably shouldn't share,
+        <a href="https://twitter.com/bjschaefer">find me on Twitter</a>.
+        I pubish code on <a href="https://github.com/bernerdschaefer">GitHub</a>,
+        including my current project, <a href="http://atmanos.org">AtmanOS</a>.
       </p>
     </header>
-    <article>
-      <%= yield %>
-    </article>
+    <main role="main">
+      <article>
+        <%= yield %>
+      </article>
+    </main>
     <footer>
       <p>
         &copy; 2016 &middot; Bernerd Schaefer
@@ -29,4 +34,3 @@
     <%= javascript_include_tag "application" %>
   </body>
 </html>
-
