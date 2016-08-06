@@ -50,9 +50,12 @@ kbd {
 }
 
 article {
-  p {
-    display: block;
-    max-width: $max-content-width;
+  max-width: $max-content-width;
+
+  ul {
+    list-style-type: disc;
+    margin-bottom: $small-spacing;
+    padding-left: $base-spacing;
   }
 
   blockquote {
