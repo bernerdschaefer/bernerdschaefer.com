@@ -8,5 +8,10 @@
     <span class="date"><%= article.date.strftime("%-d %b") %></span>
     <span class="year"><%= article.date.year %></span>
   </time>
+  <% if robots = article.data[:robots] %>
+    ·
+    originally appeared on
+    <a href="<%= robots %>">robots.thoughtbot.com</a>
+  <% end %>
 </header>
 

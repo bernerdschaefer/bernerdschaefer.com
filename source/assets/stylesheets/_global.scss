@@ -89,12 +89,11 @@ blockquote
 }
 
 .article-header {
-  h1 {
-    margin-bottom: -$small-spacing / 2;
-  }
+  color: $medium-gray;
+  font-style: italic;
 
-  time {
-    color: $medium-gray;
-    font-style: italic;
+  h1 {
+    font-style: normal;
+    margin-bottom: -$small-spacing / 2;
   }
 }
