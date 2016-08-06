@@ -5,7 +5,7 @@ abbr {
   font-size: $smaller-font-size;
 }
 
-header {
+.header {
   color: $medium-gray;
   width: 500px;
 
@@ -26,10 +26,6 @@ header {
   }
 }
 
-time {
-  font-family: $helvetica;
-}
-
 footer {
   font-family: $helvetica;
   color: $medium-gray;
@@ -43,35 +39,43 @@ kbd {
   font-size: $smaller-font-size;
 }
 
-article p { display: block; width: 500px; }
-
-article blockquote { margin: 0; font-style: italic; color: #444; line-height: 1.8em; }
-article blockquote cite { width: 500px; display: block; text-align: right; }
-article#list section { margin-bottom: 3em; }
-section.footnotes { font-size: 0.8em }
-
-time {
-  -webkit-border-radius: 4px;
-  background-color: #b44;
-  color: #fff;
+article p {
   display: block;
-  font: 8px "Lucida Grande", Helvetica, sans-serif;
-  left: 25px;
-  padding: 4px;
-  position: absolute;
-  text-align: center;
-  width: 30px;
+  width: 500px;
+}
 
-  .date {
-    display: block;
-    font-size: 16px;
-  }
+.highlight,
+blockquote
+{
+  background-color: rgb(245, 245, 255);
+  border-left: 0;
+  border-right: 0;
+  border: 1px solid #dde;
+  display: block;
+  left: -80px;
+  line-height: 1.2em;
+  margin-right: 0;
+  min-width: 500px;
+  padding: 20px 0 20px 80px;
+  position: relative;
+  right: 0;
+  width: 100%;
+}
 
-  .month {
-    font-weight: bold;
-    text-transform: uppercase;
+.highlight {
+  strong {
+    color: #219161;
+    font-weight: normal;
   }
 }
 
-.highlight, blockquote { display: block; background-color: rgb(245, 245, 255); border: 1px solid #dde; border-right: 0; border-left: 0; padding: 20px 0 20px 80px; margin-right: 0; min-width: 500px; position: relative; right: 0; width: 100%; left: -80px; line-height: 1.2em }
-.highlight strong { font-weight: normal; color: #219161; }
+.article-header {
+  h1 {
+    margin-bottom: -$small-spacing / 2;
+  }
+
+  time {
+    color: $medium-gray;
+    font-style: italic;
+  }
+}
