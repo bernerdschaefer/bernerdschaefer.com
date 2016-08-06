@@ -1,9 +1,12 @@
 ---
 title: "Multi-Locale Cucumber Features"
+teaser: >
+  Your site is available in multiple languages. How do you write features that
+  ensure everything works regardless of the language?
 ---
 
 So here's the problem: Your site is available in multiple languages. How do you
-write features that ensure everthing works regardless of the language?
+write features that ensure everything works regardless of the language?
 
 I can imagine some truly clever solutions to this problem. This isn't one of
 them. Instead, this is a practical approach to solving the problem -- with the

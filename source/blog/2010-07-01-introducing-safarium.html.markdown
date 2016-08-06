@@ -1,5 +1,7 @@
 ---
 title: "Introducing Safarium"
+teaser: >
+  Safarium is a Chrome extension that makes it behave more like Safari.
 ---
 
 I recently switched to Chrome after using Safari for almost 3 years, and have been quite happy so far with the results: the memory footprint seems to be much better than Safari, everything feels incredibly snappy, and I'm now completely addicted to the unified location bar. But there were a few things that drove me absolutely crazy, and apparently I was <a href="http://www.google.com/search?q=chrome+tab+form+elements" target="_blank">not</a> <a href="http://www.google.com/search?q=chrome+command+enter" target="_blank">alone</a>.

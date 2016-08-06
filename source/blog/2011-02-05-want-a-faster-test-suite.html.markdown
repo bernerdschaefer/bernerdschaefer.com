@@ -1,5 +1,8 @@
 ---
 title: "Using Devise? Want a faster test suite?"
+teaser: >
+  It's best practice to make your password hashes expensive to compute,
+  but you probably don't need that in your test suite.
 ---
 
 Here's the short version: making your password hashes expensive to compute is

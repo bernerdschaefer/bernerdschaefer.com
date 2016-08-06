@@ -1,5 +1,7 @@
 ---
 title: "An XP Question"
+teaser: >
+  How do you budget and plan for projects while staying agile?
 ---
 
 I recently finished reading Kent Beck's _Extreme Programming Explained_ for the

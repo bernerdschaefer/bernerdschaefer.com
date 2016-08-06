@@ -1,5 +1,7 @@
 ---
 title: "Laptop Driven Development"
+teaser: >
+  This is my preferred workflow for working on an 11-inch laptop.
 ---
 
 Any time someone sees me working on my (1st generation) Macbook Air, I get
