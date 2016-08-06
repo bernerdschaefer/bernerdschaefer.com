@@ -63,6 +63,12 @@ article {
   }
 }
 
+blockquote {
+  p {
+    max-width: $max-content-width;
+  }
+}
+
 .highlight,
 blockquote
 {
