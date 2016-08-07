@@ -93,7 +93,7 @@ blockquote
 
   @include media($medium-breakpoint) {
     margin-left: -$largest-spacing;
-    padding: 20px 0 20px $largest-spacing;
+    padding: $small-spacing 0 $small-spacing $largest-spacing;
   }
 }
 
