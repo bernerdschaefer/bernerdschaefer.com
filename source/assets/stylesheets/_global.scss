@@ -21,6 +21,7 @@ abbr {
     font-size: $largest-font-size;
     font-style: italic;
     font-weight: normal;
+    line-height: $heading-line-height;
     text-align: center;
   }
 
@@ -107,6 +108,6 @@ blockquote
 
   h1 {
     font-style: normal;
-    margin-bottom: -$small-spacing / 2;
+    margin-bottom: 0;
   }
 }
