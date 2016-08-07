@@ -1,4 +1,5 @@
 ---
+date: 2011-03-03
 title: "Multi-Locale Cucumber Features"
 teaser: >
   Your site is available in multiple languages. How do you write features that

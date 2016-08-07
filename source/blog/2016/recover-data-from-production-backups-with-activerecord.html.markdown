@@ -1,4 +1,5 @@
 ---
+date: 2016-04-13
 title: "Recover Data from Production Backups with ActiveRecord"
 teaser: >
   Sometimes things go awry with production data and you need to recover.

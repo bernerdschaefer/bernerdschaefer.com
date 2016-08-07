@@ -1,4 +1,5 @@
 ---
+date: 2010-07-01
 title: "Introducing Safarium"
 teaser: >
   Safarium is a Chrome extension that makes it behave more like Safari.

@@ -1,4 +1,5 @@
 ---
+date: 2014-12-01
 title: Writing Go in Vim
 teaser: >
   Learn how to set up Vim for writing Go.

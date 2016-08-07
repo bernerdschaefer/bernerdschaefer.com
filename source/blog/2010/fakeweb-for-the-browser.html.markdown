@@ -1,4 +1,5 @@
 ---
+date: 2010-06-28
 title: "FakeWeb for the Browser"
 teaser: >
   Akephalos lets you block and stub external requests

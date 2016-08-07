@@ -1,4 +1,5 @@
 ---
+date: 2010-10-26
 title: "An XP Question"
 teaser: >
   How do you budget and plan for projects while staying agile?

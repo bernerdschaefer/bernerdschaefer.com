@@ -1,4 +1,5 @@
 ---
+date: 2015-06-17
 title: Install Linux on a MacBook Air
 teaser: >
   A start-to-finish guide to installing Linux on your Apple hardware.

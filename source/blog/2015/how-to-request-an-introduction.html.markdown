@@ -1,4 +1,5 @@
 ---
+date: 2015-09-04
 title: How to Request an Introduction
 teaser: >
   Use these examples as a template for requesting an introduction.

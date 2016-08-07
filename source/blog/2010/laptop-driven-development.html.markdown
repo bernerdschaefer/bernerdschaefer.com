@@ -1,4 +1,5 @@
 ---
+date: 2010-10-24
 title: "Laptop Driven Development"
 teaser: >
   This is my preferred workflow for working on an 11-inch laptop.

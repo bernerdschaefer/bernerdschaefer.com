@@ -25,5 +25,5 @@ end
 activate :blog do |blog|
   blog.layout = "article"
   blog.permalink = "{year}/{month}/{day}/{title}.html"
-  blog.sources = "blog/{year}-{month}-{day}-{title}.html"
+  blog.sources = "blog/{year}/{title}.html"
 end

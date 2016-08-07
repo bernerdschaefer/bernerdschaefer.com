@@ -1,4 +1,5 @@
 ---
+date: 2011-02-05
 title: "Using Devise? Want a faster test suite?"
 teaser: >
   It's best practice to make your password hashes expensive to compute,

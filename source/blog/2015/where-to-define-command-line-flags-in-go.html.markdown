@@ -1,4 +1,5 @@
 ---
+date: 2015-06-16
 title: Where to Define Command-Line Flags in Go
 teaser: >
   The common location to define command-line flags might not be the best.

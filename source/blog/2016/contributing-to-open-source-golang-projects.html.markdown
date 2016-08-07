@@ -1,4 +1,5 @@
 ---
+date: 2016-06-20
 title: Contributing to Open Source Go Projects
 teaser: >
   Use this workflow and you'll have your first contribution to an open source

@@ -1,4 +1,5 @@
 ---
+date: 2015-06-30
 title: Configure Travis CI for Go
 teaser: >
   The defaults are useful, but sometimes you need a bit more.

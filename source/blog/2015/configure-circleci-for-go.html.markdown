@@ -1,4 +1,5 @@
 ---
+date: 2015-08-28
 title: Configure CircleCI for Go
 teaser: >
   We've settled on a `circle.yml` for Go projects.
