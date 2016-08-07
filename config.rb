@@ -27,9 +27,3 @@ activate :blog do |blog|
   blog.permalink = "{year}/{month}/{day}/{title}.html"
   blog.sources = "blog/{year}-{month}-{day}-{title}.html"
 end
-
-activate :deploy do |deploy|
-  deploy.branch = "master"
-  deploy.build_before = true
-  deploy.deploy_method = :git
-end

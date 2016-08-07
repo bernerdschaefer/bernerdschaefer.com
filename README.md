@@ -28,11 +28,15 @@ directory.
 Vendor stylesheets and JavaScripts should go in each of their `/vendor/`
 directories.
 
-Deploy the site to production with:
+## Deployment and Hosting
 
-```
-bin/deploy
-```
+The site is hosted on [Netlify]. It provides SSL, CDN distribution, and
+caching.
+
+The website is automatically built and deployed by Netlify from the master
+branch, via a GitHub webhook.
+
+  [Netlify]: https://www.netlify.com/
 
 ## Development
 
