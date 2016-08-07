@@ -44,6 +44,10 @@ footer {
   font-size: $smaller-font-size;
 }
 
+section {
+  margin: $base-spacing 0;
+}
+
 tt,
 code,
 kbd {
