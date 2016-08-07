@@ -6,8 +6,8 @@ set :fonts_dir, "assets/fonts"
 set :images_dir, "assets/images"
 set :js_dir, "assets/javascripts"
 set :layout, "layouts/application"
-set :markdown, input: "GFM", hard_wrap: false, footnote_nr: 1
-set :markdown_engine, :kramdown
+set :markdown, fenced_code_blocks: true, smartypants: true, with_toc_data: true
+set :markdown_engine, :redcarpet
 set :relative_links, true
 
 page '/*.xml', layout: false

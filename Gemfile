@@ -1,7 +1,6 @@
 source "https://rubygems.org"
 
 gem "bourbon"
-gem "kramdown"
 gem "middleman"
 gem "middleman-autoprefixer"
 gem "middleman-blog"
@@ -10,4 +9,5 @@ gem "middleman-livereload"
 gem "middleman-sprockets"
 gem "middleman-syntax"
 gem "neat"
+gem "redcarpet"
 gem "sassc"
