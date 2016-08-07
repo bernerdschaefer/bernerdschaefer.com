@@ -4,7 +4,12 @@
     <meta charset="utf-8">
     <meta content="IE=edge,chrome=1", http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title><%= current_page.data.title || "Bernerd Schaefer" %></title>
+    <title><%= [current_page.data.title, "Bernerd Schaefer"].compact.join(" · ") %></title>
+    <% if is_blog_article? %>
+      <meta name="description" content="<%= current_page.data.teaser %>">
+    <% else %>
+      <meta name="description" content="Bernerd Schaefer is a software engineer, blog author, and conference spaeker.">
+    <% end %>
     <%= stylesheet_link_tag "application" %>
   </head>
   <body class="<%= page_classes %>">
