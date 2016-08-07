@@ -24,6 +24,7 @@ end
 
 activate :blog do |blog|
   blog.layout = "article"
+  blog.new_article_template = File.expand_path("source/blog/template.erb")
   blog.permalink = "{year}/{month}/{day}/{title}.html"
   blog.sources = "blog/{year}/{title}.html"
 end
