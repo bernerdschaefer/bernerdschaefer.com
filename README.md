@@ -1,7 +1,7 @@
 # bernerdschaefer.com
 
 I put thoughts worth sharing here. For thoughts I probably shouldn't share,
-[find me on Twitter][Twitter]. I pubish code on [GitHub], including my current
+[find me on Twitter][Twitter]. I publish code on [GitHub], including my current
 project, [AtmanOS].
 
 [AtmanOS]: http://atmanos.org
