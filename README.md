@@ -53,6 +53,7 @@ branch, via a GitHub webhook.
 
 ## Development
 
+The site was started with [proteus].
 The site is built with [Middleman], a static site generator. It also uses:
 
 * [Sass (LibSass)](http://sass-lang.com):
@@ -70,3 +71,4 @@ The site is built with [Middleman], a static site generator. It also uses:
   Pages by default)
 
   [Middleman]: https://middlemanapp.com/
+  [proteus]: http://thoughtbot.github.io/proteus/
