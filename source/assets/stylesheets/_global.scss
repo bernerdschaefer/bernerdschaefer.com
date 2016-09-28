@@ -72,6 +72,11 @@ article {
   }
 }
 
+.footnotes {
+  color: $medium-gray;
+  font-family: $helvetica;
+}
+
 blockquote {
   p {
     max-width: $max-content-width;

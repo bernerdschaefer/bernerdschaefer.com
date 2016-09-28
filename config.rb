@@ -6,7 +6,7 @@ set :fonts_dir, "assets/fonts"
 set :images_dir, "assets/images"
 set :js_dir, "assets/javascripts"
 set :layout, "layouts/application"
-set :markdown, fenced_code_blocks: true, smartypants: true, with_toc_data: true
+set :markdown, fenced_code_blocks: true, smartypants: true, with_toc_data: true, footnotes: true
 set :markdown_engine, :redcarpet
 set :relative_links, true
 
