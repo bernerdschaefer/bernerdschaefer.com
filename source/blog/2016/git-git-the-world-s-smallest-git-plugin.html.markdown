@@ -147,6 +147,10 @@ and get instructions to install the extension for your own use.
 
   [git-git]: https://github.com/bernerdschaefer/git-git
 
+_**Thanks** to [Gabe Berke-Williams](https://twitter.com/gabebw), [Adarsh
+Pandit](https://twitter.com/adarshp), and [Rachael
+Berecka](https://twitter.com/das_rachaelchen) for reading drafts of this._
+
 [^1]: George Brocklehurst, the creator of gitsh, pointed out that [gitsh can be configured to autocorrect this mistake][autocorrect], which is a nice alternative.
 
 [autocorrect]: https://github.com/bernerdschaefer/dotfiles/commit/1dd5a1d8d8a10ff294047e0ea5a9e7c240fc1c8c#commitcomment-19176460
